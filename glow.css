@@ -16,8 +16,15 @@ body{
     
 }
 a{
-    color: #fff;
+    /* color: #fff; */
     text-decoration: none;
+    padding: 7px;
+    border-radius: 20px;
+    color: #fff;
+    background: linear-gradient(230deg,#0100e9,rgb(113, 0, 128));
+}
+a:hover{
+    background: rgb(113, 0, 128);
 }
 .box{
     position: relative;
