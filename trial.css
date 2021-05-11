@@ -5,22 +5,24 @@
     font-size: 17px;
 }
 body{
-height: 100vh;
+
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
 align-items: center;
+padding: 1rem 0;
 background-color: rgba(9, 2, 22);
 }
-a{
+.anc{
     /* color: #fff; */
     text-decoration: none;
     padding: 7px;
     border-radius: 20px;
     color: #fff;
     background: linear-gradient(230deg,#0100e9,rgb(113, 0, 128));
+    margin: 1rem 0;
 }
-a:hover{
+.anc:hover{
     background: rgb(113, 0, 128);
 }
 .box-container{
